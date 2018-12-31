@@ -5,9 +5,9 @@ import "../App.css";
 export class Header extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div class="All Full">
+        <header>
+          <img src={logo} class="Image" alt="logo" />
           <p>Sebastian Butterweck</p>
         </header>
       </div>

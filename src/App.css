@@ -1,31 +1,28 @@
 .App {
-  text-align: center;
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
+.All {
+  background-color: grey;
+  margin-left: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Full {
+  float: left;
+  width: 90%;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.Half {
+  float: left;
+  width: 45%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Image {
+  max-width: 100%;
+  height: auto;
 }
