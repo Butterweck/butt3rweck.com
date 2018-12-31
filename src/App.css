@@ -1,25 +1,26 @@
 .App {
-  position: relative;
+  position: absolute;
   width: 60%;
-  margin: 0 auto;
+  left: 20%;
   background-color: black;
 }
 
 .All {
   background-color: grey;
-  margin-left: 5%;
+  top: 1%;
+  float: left;
+  height: auto;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top:2.5%;
 }
 
 .Full {
-  float: left;
-  width: 90%;
-  
+  width: 95%;
 }
 
 .Half {
-  float: left;
   width: 45%;
-
 }
 
 .Image {
