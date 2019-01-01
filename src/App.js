@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./imgs/profile.jpg";
 import "./App.css";
 import { Header } from "./components/Header";
 import { Offers } from "./components/Offers";

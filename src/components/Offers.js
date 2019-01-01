@@ -6,10 +6,12 @@ export class Offers extends Component {
   render() {
     return (
       <div class="All Half">
-        <header>
-          <img src={logo} class="Image" alt="logo" />
-          <p>Sebastian Butterweck</p>
-        </header>
+          <div class="Header-Image">
+            <img class="Image" src={logo} alt="logo" />
+          </div>
+          <div class="Header-Text">
+            <p>Sebastian Butterweck</p>
+          </div>
       </div>
     );
   }

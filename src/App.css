@@ -2,11 +2,11 @@
   position: absolute;
   width: 60%;
   left: 20%;
-  background-color: black;
+  background-color: rgb(104, 105, 114);
 }
 
 .All {
-  background-color: grey;
+  background-color: rgb(104, 105, 114);
   top: 1%;
   float: left;
   height: auto;
@@ -24,6 +24,16 @@
 }
 
 .Image {
-  max-width: 100%;
+  max-width: 200px;
+  width: auto;
   height: auto;
+}
+
+.Header-Image {
+  float: left;
+  margin: 10px;
+}
+
+.Header-Text {
+  display: inline;
 }
