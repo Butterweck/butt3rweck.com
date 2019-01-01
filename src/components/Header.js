@@ -9,7 +9,7 @@ export class Header extends Component {
         <div class="Header-Image">
           <img class="Image" src={logo} alt="logo" />
         </div>
-        <div class="Header-Text">
+        <div class="Text">
           <p>
             Working with Scrum since almost 5 years, I am convinced that the
             success or failure of a dev team is highly depending on the degree

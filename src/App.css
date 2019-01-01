@@ -12,7 +12,7 @@
   height: auto;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  margin-top:2.5%;
+  margin-top: 2.5%;
 }
 
 .Full {
@@ -31,9 +31,48 @@
 
 .Header-Image {
   float: left;
-  margin: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.Header-Text {
+.Icon {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30px;  
+}
+
+.Icon-Tag {
+  vertical-align: middle;
+}
+.Text {
   display: inline;
+}
+
+.Icon-Text {
+  float: right;
+  margin-right: 10px;
+  height: 30px;  
+}
+
+p.Next-To-Icon {
+  display: inline;
+  vertical-align: middle;
+}
+
+.Skill {
+  border-left: 6px solid darkgray;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 30%;
+  float: left;
+  height: 30px;
+}
+
+.Header {
+  border-left: 6px solid darkgray;
+  background-color: white;
 }
