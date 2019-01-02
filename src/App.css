@@ -1,78 +1,112 @@
-.App {
+/* Outer-0 */
+
+.Outer-0 {
   position: absolute;
   width: 60%;
   left: 20%;
   background-color: rgb(104, 105, 114);
 }
 
-.All {
-  background-color: rgb(104, 105, 114);
-  top: 1%;
+/* Block-1 */
+
+.Block-1 {
   float: left;
   height: auto;
   margin-left: 2.5%;
-  margin-right: 2.5%;
   margin-top: 2.5%;
+  margin-right: 2.5%;
 }
 
-.Full {
+.Block-1-Full {
   width: 95%;
 }
 
-.Half {
+.Block-1-Half {
   width: 45%;
 }
 
-.Image {
-  max-width: 200px;
-  width: auto;
-  height: auto;
-}
-
-.Header-Image {
-  float: left;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.Icon {
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 30px;  
-}
-
-.Icon-Tag {
-  vertical-align: middle;
-}
-.Text {
-  display: inline;
-}
-
-.Icon-Text {
-  float: right;
-  margin-right: 10px;
-  height: 30px;  
-}
-
-p.Next-To-Icon {
-  display: inline;
-  vertical-align: middle;
-}
-
-.Skill {
+.Block-1-Type-Header {
   border-left: 6px solid darkgray;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  box-sizing: border-box;
   background-color: white;
-  width: 30%;
+  
+}
+
+.Block-1-Type-Offers {
+
+}
+
+/* Element-2 */
+
+.Element-2-Type-Header-Image {
+  float: left;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-right: 2.5%;
+}
+
+.Element-2-Type-Header-Text {
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.Element-2-Type-Skill {
+  border-left: 6px solid darkgray;
+  box-sizing: border-box;
+  margin-right: 2.63%;
+  margin-bottom: 2.5%;
+  background-color: white;
+  width: 31.58%;
   float: left;
   height: 30px;
 }
 
-.Header {
-  border-left: 6px solid darkgray;
-  background-color: white;
+.Element-2-Type-Skill:nth-child(3n+3) {
+  margin-right: 0;
 }
+
+/* Subelem-3 */
+
+p.Subelem-3-Type-Header-Text {
+  display: block;
+}
+
+img.Subelem-3-Type-Header-Image {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.Subelem-3-Type-Icon {
+  float: left;
+  margin-left: 2.5%;
+  height: 30px;  
+}
+
+.Subelem-3-Type-Icon-Text {
+  float: right;
+  margin-right: 2.5%;
+  height: 30px;  
+}
+
+/* Subelem-4 */
+
+.Subelem-4-Type-Icon {
+  margin-top: 7px;
+}
+
+p.Subelem-4-Type-Icon-Text {
+  display: inline;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+

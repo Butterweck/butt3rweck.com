@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import "../App.css";
 import { Skill } from "./Skill";
 
-export class Offers extends Component {
+export class Skills extends Component {
   render() {
     return (
-      <div class="All Full">
+      <div class="Block-1 Block-1-Full">
         <Skill icon="FaUndo" description="Scrum Master" />
         <Skill icon="FaSync" description="Agile Transformation" />
         <Skill icon="FaChartLine" description="Scaling Agile" />

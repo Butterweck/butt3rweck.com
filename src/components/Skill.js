@@ -17,50 +17,50 @@ export class Skill extends Component {
   icon(type) {
     switch (type) {
       case "FaBeer":
-        return <FaBeer class="Icon-Tag" />;
+        return <FaBeer class="Subelem-4-Type-Icon" />;
         break;
       case "FaAngry":
-        return <FaAngry class="Icon-Tag" />;
+        return <FaAngry class="Subelem-4-Type-Icon" />;
         break;
       case "FaServer":
-        return <FaServer class="Icon-Tag" />;
+        return <FaServer class="Subelem-4-Type-Icon" />;
         break;
       case "FaCoins":
-        return <FaCoins class="Icon-Tag" />;
+        return <FaCoins class="Subelem-4-Type-Icon" />;
         break;
       case "FaBoxOpen":
-        return <FaBoxOpen class="Icon-Tag" />;
+        return <FaBoxOpen class="Subelem-4-Type-Icon" />;
         break;
       case "FaCoffee":
-        return <FaCoffee class="Icon-Tag" />;
+        return <FaCoffee class="Subelem-4-Type-Icon" />;
         break;
       case "FaChartLine":
-        return <FaChartLine class="Icon-Tag" />;
+        return <FaChartLine class="Subelem-4-Type-Icon" />;
         break;
       case "FaDoorOpen":
-        return <FaDoorOpen class="Icon-Tag" />;
+        return <FaDoorOpen class="Subelem-4-Type-Icon" />;
         break;
       case "FaUndo":
-        return <FaUndo class="Icon-Tag" />;
+        return <FaUndo class="Subelem-4-Type-Icon" />;
         break;
       case "FaUsers":
-        return <FaUsers class="Icon-Tag" />;
+        return <FaUsers class="Subelem-4-Type-Icon" />;
         break;
       case "FaSync":
-        return <FaSync class="Icon-Tag" />;
+        return <FaSync class="Subelem-4-Type-Icon" />;
         break;
       default:
-        return <FaQuestion class="Icon-Tag" />;
+        return <FaQuestion class="Subelem-4-Type-Icon" />;
         break;
     }
   }
 
   render() {
     return (
-      <div class="Skill">
-        <div class="Icon">{this.icon(this.props.icon)}</div>
-        <div class="Icon-Text">
-          <p class="Next-To-Icon">{this.props.description}</p>
+      <div class="Element-2-Type-Skill">
+        <div class="Subelem-3-Type-Icon ">{this.icon(this.props.icon)}</div>
+        <div class="Subelem-3-Type-Icon-Text">
+          <p class="Subelem-4-Type-Icon-Text">{this.props.description}</p>
         </div>
       </div>
     );
