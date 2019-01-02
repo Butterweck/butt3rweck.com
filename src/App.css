@@ -30,15 +30,29 @@
 /* Block-1 */
 
 img.Block-1-Type-Logobox-Image {
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 5%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 p.Block-1-Type-Logobox-Text {
-  margin-left: 5%;
-  margin-top: 5%;
   text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  p.Block-1-Type-Logobox-Text {
+    display: none;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 0;
+  }
+
+  img.Block-1-Type-Logobox-Image {
+    /* WORKAROUND */
+    margin-bottom: calc(10% - 3px);
+    margin-right: 10%;
+  }
 }
 
 .Block-1 {
@@ -100,7 +114,7 @@ img.Element-2-Type-Header-Image {
   margin-right: 0;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
   p.Element-2-Type-Header-Text {
     float: none;
     width: 95%;
