@@ -32,7 +32,6 @@
 }
 
 .Block-1-Type-Offers {
-
 }
 
 /* Element-2 */
@@ -41,7 +40,6 @@ p.Element-2-Type-Header-Text {
   float: left;
   margin-top: 2.5%;
   margin-right: 2.5%;
- 
   width: 67.5%;
 }
 
@@ -66,8 +64,47 @@ img.Element-2-Type-Header-Image {
   height: 30px;
 }
 
-.Element-2-Type-Skill:nth-child(3n+3) {
+.Element-2-Type-Skill:nth-child(3n + 3) {
   margin-right: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+
+  .Element-2-Type-Skill {
+    margin-right: 2.63%;
+    width: 48.68%;
+  }
+
+  .Element-2-Type-Skill:nth-child(3n + 3) {
+    margin-right: 2.63%;
+  }
+
+  .Element-2-Type-Skill:nth-child(2n + 2) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  img.Element-2-Type-Header-Image {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  p.Element-2-Type-Header-Text {
+    margin-top: 0;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+  }
+
+  .Element-2-Type-Skill {
+    margin-right: 0;
+    margin-bottom: 2.5%;
+    width: 100%;
+  }
 }
 
 /* Subelem-3 */
@@ -75,13 +112,13 @@ img.Element-2-Type-Header-Image {
 .Subelem-3-Type-Icon {
   float: left;
   margin-left: 2.5%;
-  height: 30px;  
+  height: 30px;
 }
 
 .Subelem-3-Type-Icon-Text {
   float: right;
   margin-right: 2.5%;
-  height: 30px;  
+  height: 30px;
 }
 
 /* Subelem-4 */
@@ -94,12 +131,3 @@ p.Subelem-4-Type-Icon-Text {
   display: inline;
   vertical-align: middle;
 }
-
-
-
-
-
-
-
-
-
