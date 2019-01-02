@@ -17,6 +17,7 @@ export class Skills extends Component {
         <Skill icon="FaServer" description="Jira Administration" />
         <Skill icon="FaServer" description="Confluence Administration" />
         <Skill icon="FaBoxOpen" description="Product Owner" />
+        <Skill icon="FaQuestion" description="Placeholder" />
       </div>
     );
   }

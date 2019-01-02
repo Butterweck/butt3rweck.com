@@ -114,6 +114,10 @@ img.Element-2-Type-Header-Image {
   margin-right: 0;
 }
 
+.Element-2-Type-Skill:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
 @media only screen and (max-width: 1400px) {
   p.Element-2-Type-Header-Text {
     float: none;
@@ -132,6 +136,14 @@ img.Element-2-Type-Header-Image {
 
   .Element-2-Type-Skill:nth-child(2n + 2) {
     margin-right: 0;
+  }
+
+  .Element-2-Type-Skill:nth-last-child(-n + 3) {
+    margin-bottom: 2.5%;
+  }
+
+  .Element-2-Type-Skill:nth-last-child(-n + 2) {
+    margin-bottom: 0;
   }
 }
 
@@ -155,6 +167,14 @@ img.Element-2-Type-Header-Image {
     margin-right: 0;
     margin-bottom: 2.5%;
     width: 100%;
+  }
+
+  .Element-2-Type-Skill:nth-last-child(-n + 2) {
+    margin-bottom: 2.5%;
+  }
+
+  .Element-2-Type-Skill:nth-last-child(-n + 1) {
+    margin-bottom: 0;
   }
 }
 
