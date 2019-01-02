@@ -2,6 +2,10 @@
 .Container {
   position: relative;
   width: 70%;
+  /* This is here, because otherwise the container div would have a height of 0.
+  The logobox wouldnt stick then anymore.
+  A hacky "height: 1000px;" also did the trick but seemed ugly.*/
+  display: inline-block;
   left: 10%;
 }
 
@@ -13,12 +17,12 @@
   border-right: 6px solid darkgrey;
   box-sizing: border-box;
   position: sticky;
+  position: -webkit-sticky;
   top: 130px;
 }
 
 .Outer-0 {
-  position: absolute;
-  margin-left: 14.29%;
+  float: left;
   width: 84.71%;
   background-color: rgb(104, 105, 114);
 }
