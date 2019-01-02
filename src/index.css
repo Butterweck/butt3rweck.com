@@ -2,10 +2,9 @@ body {
   background-image: url("./imgs/background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
-
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 
   margin: 0;
   padding: 0;
