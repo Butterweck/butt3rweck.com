@@ -77,6 +77,12 @@ p.Block-1-Type-Logobox-Text {
   background-color: white;
 }
 
+.Block-1-Type-Dummy {
+  border-left: 6px solid darkgray;
+  box-sizing: border-box;
+  background-color: white;
+}
+
 .Block-1-Type-Offers {
 }
 
@@ -87,6 +93,14 @@ p.Element-2-Type-Header-Text {
   margin-top: 2.5%;
   margin-right: 2.5%;
   width: 67.5%;
+}
+
+p.Element-2-Type-Dummy-Text {
+  float: left;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  width: 95%;
 }
 
 img.Element-2-Type-Header-Image {
