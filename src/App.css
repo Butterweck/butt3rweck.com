@@ -29,7 +29,6 @@
   border-left: 6px solid darkgray;
   box-sizing: border-box;
   background-color: white;
-  
 }
 
 .Block-1-Type-Offers {
@@ -38,18 +37,22 @@
 
 /* Element-2 */
 
-.Element-2-Type-Header-Image {
+p.Element-2-Type-Header-Text {
+  float: left;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+ 
+  width: 67.5%;
+}
+
+img.Element-2-Type-Header-Image {
+  width: 25%;
+  height: auto;
   float: left;
   margin-left: 2.5%;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   margin-right: 2.5%;
-}
-
-.Element-2-Type-Header-Text {
-  margin-top: 2.5%;
-  margin-right: 2.5%;
-  margin-left: 2.5%;
 }
 
 .Element-2-Type-Skill {
@@ -68,16 +71,6 @@
 }
 
 /* Subelem-3 */
-
-p.Subelem-3-Type-Header-Text {
-  display: block;
-}
-
-img.Subelem-3-Type-Header-Image {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
 
 .Subelem-3-Type-Icon {
   float: left;
