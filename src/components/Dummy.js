@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import profile from "../imgs/profile.jpg";
 import "../App.css";
 
 export class Dummy extends Component {
