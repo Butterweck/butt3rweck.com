@@ -14,7 +14,7 @@
 .Outer-0-Logobox {
   float: left;
   width: 14.29%;
-  background-color: rgb(104, 105, 114);
+  background-color: rgb(104, 105, 114, 0.5);
   border-right: 6px solid darkgrey;
   box-sizing: border-box;
   position: sticky;
@@ -26,7 +26,7 @@
 .Outer-0 {
   float: left;
   width: 84.71%;
-  background-color: rgb(104, 105, 114);
+  background-color: rgb(104, 105, 114, 0.5);
 }
 
 /* Block-1 */
