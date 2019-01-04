@@ -13,6 +13,9 @@ import { FaUndo } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { FaSync } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
+import { FaStarOfLife } from "react-icons/fa";
+import { FaIdCard } from "react-icons/fa";
+import { FaAt } from "react-icons/fa";
 
 export class Flag extends Component {
   icon(type) {
@@ -52,6 +55,15 @@ export class Flag extends Component {
         break;
       case "FaTelegramPlane":
         return <FaTelegramPlane class="Subelem-4-Type-Icon" />;
+        break;
+      case "FaStarOfLife":
+        return <FaStarOfLife class="Subelem-4-Type-Icon" />;
+        break;
+      case "FaIdCard":
+        return <FaIdCard class="Subelem-4-Type-Icon" />;
+        break;
+      case "FaAt":
+        return <FaAt class="Subelem-4-Type-Icon" />;
         break;
       default:
         return <FaQuestion class="Subelem-4-Type-Icon" />;

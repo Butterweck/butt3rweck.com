@@ -11,10 +11,7 @@ export class Field extends Component {
     }
     return (
       <div>
-        <SimpleBlock
-          description="That's what I offer to development teams."
-          headline="true"
-        />
+        
         <div class="Block-1 Block-1-Full">
         { rows }
         </div>

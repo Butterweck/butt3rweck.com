@@ -2,15 +2,14 @@ import React, { Component } from "react";
 import profile from "../imgs/profile.jpg";
 import "../App.css";
 import { SimpleBlock } from "./SimpleBlock";
+import { Field } from "./Field";
 
 export class Header extends Component {
   render() {
     return (
       <div>
-        <SimpleBlock
-          description="That's me"
-          headline="true"
-        />
+        
+        <Field elements = { this.props.contactData } />
         <div class="Block-1 Block-1-Full Block-1-Type-Header">
           <img
             class="Element-2-Type-Header-Image"
