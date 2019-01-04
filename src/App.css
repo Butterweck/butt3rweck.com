@@ -61,10 +61,16 @@ img.Block-1-Type-Logobox-Image {
   background-color: white;
 }
 
-.Block-1-Type-Dummy {
+.Block-1-Type-Simple {
   border-left: 6px solid darkgray;
   box-sizing: border-box;
   background-color: white;
+}
+
+.Block-1-Type-Simple-Headline {
+  border-left: 6px solid darkgray;
+  box-sizing: border-box;
+  background-color:  rgb(104, 105, 114, 0.8);
 }
 
 .Block-1-Type-Offers {
@@ -79,12 +85,20 @@ p.Element-2-Type-Header-Text {
   width: 67.5%;
 }
 
-p.Element-2-Type-Dummy-Text {
+p.Element-2-Type-Simple-Text {
   float: left;
   margin-top: 2.5%;
   margin-right: 2.5%;
   margin-left: 2.5%;
   width: 95%;
+}
+
+p.Element-2-Type-Simple-Headline-Text {
+  float: left;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  width: 95%;
+  color : white;
 }
 
 img.Element-2-Type-Header-Image {

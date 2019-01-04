@@ -12,8 +12,9 @@ import { FaDoorOpen } from "react-icons/fa";
 import { FaUndo } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { FaSync } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 
-export class Skill extends Component {
+export class Flag extends Component {
   icon(type) {
     switch (type) {
       case "FaBeer":
@@ -48,6 +49,9 @@ export class Skill extends Component {
         break;
       case "FaSync":
         return <FaSync class="Subelem-4-Type-Icon" />;
+        break;
+      case "FaTelegramPlane":
+        return <FaTelegramPlane class="Subelem-4-Type-Icon" />;
         break;
       default:
         return <FaQuestion class="Subelem-4-Type-Icon" />;
