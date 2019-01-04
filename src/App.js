@@ -40,20 +40,35 @@ class App extends Component {
       <div class="Container">
         <Logobox />
         <div class="Outer-0">
-          <SimpleBlock description="That's me" headline="true" />
+          <SimpleBlock
+            description="That's me"
+            headline="true"
+          />
           <Header
-            contactData={ this.contactData }
-            img={ profile }
+            contactData={this.contactData}
+            img={profile}
             alt="Sebastian Butterweck"
-            description={ this.shortTexts }
+            description={this.shortTexts}
           />
           <SimpleBlock
             description="That's what I offer to development teams."
             headline="true"
           />
-          <Field elements={ this.skills } />
+          <Field elements={this.skills} />
+          <SimpleBlock
+            description="More text"
+            headline="true"
+          />
           <SimpleBlock />
+          <SimpleBlock
+            description="More text"
+            headline="true"
+          />
           <SimpleBlock />
+          <SimpleBlock
+            description="More text"
+            headline="true"
+          />
           <SimpleBlock />
         </div>
       </div>
