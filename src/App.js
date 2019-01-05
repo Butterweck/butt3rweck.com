@@ -41,7 +41,7 @@ class App extends Component {
         <Logobox />
         <div class="Outer-0">
           <SimpleBlock
-            description="That's me"
+            description="That's me."
             headline="true"
           />
           <Header
