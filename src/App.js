@@ -17,7 +17,7 @@ class App extends Component {
     "Creating Transparency": "FaDoorOpen",
     "Exciting Retros": "FaCoffee",
     "Team Building": "FaBeer",
-    "Remote First": "FaQuestion",
+    "Remote First": "FaTelegramPlane",
     "Conflict Mediation": "FaAngry",
     "Jira Administration": "FaServer",
     "Confluence Administration": "FaServer",
