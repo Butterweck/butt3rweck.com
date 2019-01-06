@@ -128,7 +128,10 @@ img.Block-1-Type-Logobox-Image {
   background-color: rgb(32, 32, 31, 0.5);
 }
 
-.Block-1-Type-Offers {
+.Block-1-Type-Projects {
+  border-left: 6px solid darkgray;
+  box-sizing: border-box;
+  background-color: white;
 }
 
 /* Element-2 */
@@ -282,6 +285,15 @@ img.Element-2-Type-Header-Image {
   }
 }
 
+.Element-2-Type-Timeline-Item-Date {
+  display: block;
+  float: left;
+  margin-left: 5%;
+  padding: 10px;
+  background-color: rgb(32, 32, 31, 0.5);
+  color: white;
+}
+
 /* Subelem-3 */
 
 .Subelem-3-Type-Icon {
@@ -305,6 +317,10 @@ img.Element-2-Type-Header-Image {
   }
 }
 
+p.Subelem-3-Type-Timeline-Item-Data {
+  margin-right: 2.5%;
+}
+
 /* Subelem-4 */
 
 .Subelem-4-Type-Icon {
@@ -321,3 +337,20 @@ p.Subelem-4-Type-Icon-Text {
     font-size: small;
   }
 }
+
+/* Overwrite some timeline stuff */
+
+.timeline--wrapper {
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.timeline {
+  margin-top: 2.5% !important;
+  margin-right: 2.5% !important;
+  margin-left: 2.5% !important;
+  margin-bottom: 0 !important;
+  width: 95% !important;
+  max-width: 100% !important;
+}
+

@@ -58,11 +58,11 @@ class App extends Component {
           />
           <Field elements={this.skills} />
           <SimpleBlock
-            description="More text"
+            description="I've worked in these projects."
             headline="true"
             anchor="projects"
           />
-          <SimpleBlock />
+          <Projects />
           <SimpleBlock
             description="More text"
             headline="true"
