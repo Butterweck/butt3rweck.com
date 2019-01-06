@@ -22,8 +22,6 @@
   float: left;
   width: 19.35%;
   background-color: rgb(32, 32, 31, 0.5);
-  border-right: 6px solid darkgrey;
-  box-sizing: border-box;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -43,7 +41,6 @@
 
   .Outer-0-Logobox {
     width: 100%;
-    border-right: none;
     position: relative;
   }
 }
