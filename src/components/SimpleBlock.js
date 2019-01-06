@@ -28,8 +28,11 @@ export class SimpleBlock extends Component {
 
   render() {
     return (
-      <div class={ 'Block-1 Block-1-Full ' + this.divClass() } >
-        <p class={ this.pClass() } > { this.description() } </p>
+      <div>
+        <a name={this.props.anchor} />
+        <div class={"Block-1 Block-1-Full " + this.divClass()}>
+          <p class={this.pClass()}> {this.description()} </p>
+        </div>
       </div>
     );
   }

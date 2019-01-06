@@ -43,6 +43,7 @@ class App extends Component {
           <SimpleBlock
             description="That's me."
             headline="true"
+            anchor="home"
           />
           <Header
             contactData={this.contactData}
@@ -53,16 +54,19 @@ class App extends Component {
           <SimpleBlock
             description="That's what I offer to development teams."
             headline="true"
+            anchor="offers"
           />
           <Field elements={this.skills} />
           <SimpleBlock
             description="More text"
             headline="true"
+            anchor="projects"
           />
           <SimpleBlock />
           <SimpleBlock
             description="More text"
             headline="true"
+            anchor="quotes"
           />
           <SimpleBlock />
           <SimpleBlock
