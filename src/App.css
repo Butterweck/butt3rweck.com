@@ -10,6 +10,13 @@
   margin-top: 50px;
 }
 
+@media only screen and (max-width: 840px) {
+  .Container {
+    width: 60%;
+    left: 20%;
+  }
+}
+
 /* Outer-0 */
 .Outer-0-Logobox {
   float: left;
@@ -27,6 +34,18 @@
   float: left;
   width: 77.42%;
   background-color: rgb(32, 32, 31, 0.5);
+}
+
+@media only screen and (max-width: 840px) {
+  .Outer-0 {
+    width: 100%;
+  }
+
+  .Outer-0-Logobox {
+    width: 100%;
+    border-right: none;
+    position: relative;
+  }
 }
 
 /* Block-1 */
@@ -53,6 +72,21 @@ img.Block-1-Type-Logobox-Image {
   text-align: center;
 }
 
+@media only screen and (max-width: 840px) {
+  img.Block-1-Type-Logobox-Image {
+    width: 90%;
+    margin-bottom: 0;
+    border-left: 6px solid darkgrey;
+    box-sizing: border-box;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .Block-1-Type-Logobox-Nav-Item {
+    display: none;
+  }
+}
+
 .Block-1 {
   float: left;
   height: auto;
@@ -67,6 +101,16 @@ img.Block-1-Type-Logobox-Image {
 
 .Block-1-Half {
   width: 45%;
+}
+
+@media only screen and (max-width: 840px) {
+  .Block-1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .Block-1-Full {
+    width: 90%;
+  }
 }
 
 .Block-1-Type-Header {
@@ -84,7 +128,7 @@ img.Block-1-Type-Logobox-Image {
 .Block-1-Type-Simple-Headline {
   border-left: 6px solid darkgray;
   box-sizing: border-box;
-  background-color:  rgb(32, 32, 31, 0.5);
+  background-color: rgb(32, 32, 31, 0.5);
 }
 
 .Block-1-Type-Offers {
@@ -134,7 +178,7 @@ p.Element-2-Type-Simple-Headline-Text {
   margin-right: 2.5%;
   margin-left: 2.5%;
   width: 95%;
-  color : white;
+  color: white;
 }
 
 img.Element-2-Type-Header-Image {
@@ -197,18 +241,33 @@ img.Element-2-Type-Header-Image {
 
 @media only screen and (max-width: 840px) {
   img.Element-2-Type-Header-Image {
-    width: 95%;
-    margin-left: 2.5%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    margin-right: 2.5%;
+    margin-right: 5%;
   }
 
   p.Element-2-Type-Header-Text {
     margin-top: 0;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    width: 95%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    font-size: small;
+  }
+
+  p.Element-2-Type-Simple-Text {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    font-size: small;
+  }
+
+  p.Element-2-Type-Simple-Headline-Text {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    font-size: small;
   }
 
   .Element-2-Type-Skill {
@@ -249,4 +308,10 @@ img.Element-2-Type-Header-Image {
 p.Subelem-4-Type-Icon-Text {
   display: inline;
   vertical-align: middle;
+}
+
+@media only screen and (max-width: 840px) {
+  p.Subelem-4-Type-Icon-Text {
+    font-size: small;
+  }
 }
