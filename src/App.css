@@ -296,6 +296,15 @@ img.Element-2-Type-Header-Image {
   height: 30px;
 }
 
+@media only screen and (max-width: 840px) {
+  .Subelem-3-Type-Icon {
+    margin-left: 5%;
+  }
+  .Subelem-3-Type-Icon-Text {
+    margin-right: 5%;
+  }
+}
+
 /* Subelem-4 */
 
 .Subelem-4-Type-Icon {
