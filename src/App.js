@@ -66,7 +66,7 @@ class App extends Component {
           <SimpleBlock
             description="More text"
             headline="true"
-            anchor="quotes"
+            anchor="references"
           />
           <SimpleBlock />
           <SimpleBlock
