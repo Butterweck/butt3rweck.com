@@ -18,6 +18,7 @@ export class Quotes extends Component {
         </p>
         <FaQuoteRight class="Element-2-Type-Quote-Icon-Right" />
         <h3 class="Element-2-Type-Quote-Name">Ralf Karge</h3>
+        <h4 class="Element-2-Type-Quote-Name"> Deutsche Telekom AG</h4>
       </div>
     );
   }

@@ -374,7 +374,13 @@ p.Element-2-Type-Quote-Text {
 }
 
 h3.Element-2-Type-Quote-Name {
-  margin-left: 75%;
+  margin-left: 65%;
+  margin-bottom: 0.5%;
+}
+
+h4.Element-2-Type-Quote-Name {
+  margin-left: 65%;
+  margin-top: 0.5%;
 }
 
 /* Subelem-3 */
