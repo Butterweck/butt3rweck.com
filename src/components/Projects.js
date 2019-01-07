@@ -38,7 +38,7 @@ export class Projects extends Component {
           <div class="Element-2-Type-Timeline-Item-Data">
             <h3 class="Subelem-3-Type-Timeline-Item-Data">Scrum Master, Deutsche Telekom AG</h3>
             <h4 class="Subelem-3-Type-Timeline-Item-Data">as Freelancer</h4>
-            <p class="Subelem-3-Type-Timeline-Item-Data">Coaching a team of > 30 people, providing a scaling mechanism for its 4 sub-teams</p>
+            <p class="Subelem-3-Type-Timeline-Item-Data">Coaching a team of > 30 people; providing a scaling mechanism for its 4 sub-teams</p>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Responsible for the team’s jira and confluence setup as a project
               admin, consulting and supporting the team in their jira use
