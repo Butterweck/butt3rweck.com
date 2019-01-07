@@ -96,7 +96,7 @@ export class Projects extends Component {
             </p>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Starting an internal dev team (now > 15 people); insourcing the
-              development of our product
+              development of the product
             </p>
             <p class="Subelem-3-Type-Timeline-Item-Data">Introducing Scrum for the first time in the company</p>
             <p class="Subelem-3-Type-Timeline-Item-Data">
