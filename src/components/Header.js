@@ -6,6 +6,7 @@ import { Field } from "./Field";
 export class Header extends Component {
   render() {
     const descriptionLength = this.props.description.length;
+    
     var parsedDescription = [];
     var i;
     for (i=0; i<descriptionLength; i++) {

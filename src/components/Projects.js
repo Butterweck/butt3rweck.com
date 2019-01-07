@@ -60,10 +60,10 @@ export class Projects extends Component {
           <div class="Element-2-Type-Timeline-Item-Data">
             <h3 class="Subelem-3-Type-Timeline-Item-Data">Scrum Master, Reservix GmbH</h3>
             <p class="Subelem-3-Type-Timeline-Item-Data">
-              Introducing scrum in a newly built devops team in Freiburg office;
-              coaching the team
+              Introducing scrum in a newly built devops team;
+              coaching the team remotely
             </p>
-            <p class="Subelem-3-Type-Timeline-Item-Data">Coaching two dev teams in Frankfurt office</p>
+            <p class="Subelem-3-Type-Timeline-Item-Data">Coaching two co-located dev teams</p>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Admin for a self-hosted 25 user Jira and Confluence instance:
               <ul class="Subelem-4-Type-Timeline-Item-Data-List">
