@@ -7,7 +7,7 @@ export class Projects extends Component {
     return (
       <Timeline
         className="Block-1 Block-1-Full Block-1-Type-Projects"
-        animate="false"
+        animate={ false }
         lineColor={"darkgrey"}
       >
       <TimelineItem
