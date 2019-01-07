@@ -19,8 +19,8 @@ export class Projects extends Component {
           }
         >
           <div class="Element-2-Type-Timeline-Item-Data">
-            <h3>Scrum Master and Atlassian Admin, a german public authority</h3>
-            <h4>as Freelancer</h4>
+            <h3 class="Subelem-3-Type-Timeline-Item-Data">Scrum Master and Atlassian Admin, a german public authority</h3>
+            <h4 class="Subelem-3-Type-Timeline-Item-Data">as Freelancer</h4>
             <p class="Subelem-3-Type-Timeline-Item-Data">Coaching a team of XX people</p>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Administering an Atlassian environment for > 3000 users
@@ -36,8 +36,8 @@ export class Projects extends Component {
           }
         >
           <div class="Element-2-Type-Timeline-Item-Data">
-            <h3>Scrum Master, Deutsche Telekom AG</h3>
-            <h4>as Freelancer</h4>
+            <h3 class="Subelem-3-Type-Timeline-Item-Data">Scrum Master, Deutsche Telekom AG</h3>
+            <h4 class="Subelem-3-Type-Timeline-Item-Data">as Freelancer</h4>
             <p class="Subelem-3-Type-Timeline-Item-Data">Coaching a team of > 30 people, providing a scaling mechanism for its 4 sub-teams</p>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Responsible for the team’s jira and confluence setup as a project
@@ -58,7 +58,7 @@ export class Projects extends Component {
           }
         >
           <div class="Element-2-Type-Timeline-Item-Data">
-            <h3>Scrum Master, Reservix GmbH</h3>
+            <h3 class="Subelem-3-Type-Timeline-Item-Data">Scrum Master, Reservix GmbH</h3>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Introducing scrum in a newly built devops team in Freiburg office;
               coaching the team
@@ -66,7 +66,7 @@ export class Projects extends Component {
             <p class="Subelem-3-Type-Timeline-Item-Data">Coaching two dev teams in Frankfurt office</p>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Admin for a self-hosted 25 user Jira and Confluence instance:
-              <ul>
+              <ul class="Subelem-4-Type-Timeline-Item-Data-List">
                 <li>Managing workflows, boards, permissions</li>
                 <li>
                   Consulting and supporting developments teams in their project
@@ -90,7 +90,7 @@ export class Projects extends Component {
           }
         >
           <div class="Element-2-Type-Timeline-Item-Data">
-            <h3>Product Owner, Reservix GmbH</h3>
+            <h3 class="Subelem-3-Type-Timeline-Item-Data">Product Owner, Reservix GmbH</h3>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Project management for an externally developed software product
             </p>

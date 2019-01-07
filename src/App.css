@@ -294,6 +294,17 @@ img.Element-2-Type-Header-Image {
   color: white;
 }
 
+@media only screen and (max-width: 840px) {
+  .Element-2-Type-Timeline-Item-Date {
+    margin-left: 20%;
+    font-size: small;
+  }
+
+  .Element-2-Type-Timeline-Item-Data {
+    margin-top: 5%;
+  }
+}
+
 /* Subelem-3 */
 
 .Subelem-3-Type-Icon {
@@ -318,7 +329,21 @@ img.Element-2-Type-Header-Image {
 }
 
 p.Subelem-3-Type-Timeline-Item-Data {
-  margin-right: 2.5%;
+  margin-right: 4.5%;
+}
+
+@media only screen and (max-width: 840px) {
+  p.Subelem-3-Type-Timeline-Item-Data {
+    font-size: small;
+  }
+
+  h3.Subelem-3-Type-Timeline-Item-Data {
+    font-size: small;
+  }
+
+  h4.Subelem-3-Type-Timeline-Item-Data {
+    font-size: small;
+  }
 }
 
 /* Subelem-4 */
@@ -338,6 +363,12 @@ p.Subelem-4-Type-Icon-Text {
   }
 }
 
+@media only screen and (max-width: 840px) {
+.Subelem-4-Type-Timeline-Item-Data-List {
+  padding: 20px;
+}
+}
+
 /* Overwrite some timeline stuff */
 
 .timeline--wrapper {
@@ -354,3 +385,11 @@ p.Subelem-4-Type-Icon-Text {
   max-width: 100% !important;
 }
 
+@media only screen and (max-width: 840px) {
+  .timeline {
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+    width: 90% !important;
+    max-width: 100% !important;
+  }
+}
