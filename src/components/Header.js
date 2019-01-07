@@ -6,17 +6,17 @@ import { Field } from "./Field";
 export class Header extends Component {
   render() {
     const descriptionLength = this.props.description.length;
-    var parsedDescription = this.props.description.map(function(text, index) {
-      if (descriptionLength == index) {
-        return text;
+    var parsedDescription = [];
+    var i;
+    for (i=0; i<descriptionLength; i++) {
+      if (descriptionLength-1 == i) {
+        parsedDescription.push(this.props.description[i]);
       } else {
-        return (
-          <div>
-            {text} <br /> &nbsp; <br />
-          </div>
-        );
+        parsedDescription.push(this.props.description[i]);
+        parsedDescription.push(<br/>);
+        parsedDescription.push(<br/>);
       }
-    })
+    }
 
     return (
       <div>

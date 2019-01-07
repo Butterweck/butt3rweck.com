@@ -158,6 +158,24 @@ a.Element-2-Type-Logobox-Nav-Item:link {
   line-height: 30px;
 }
 
+@media only screen and (max-width: 1400px) {
+  a.Element-2-Type-Logobox-Nav-Item:active {
+    font-size: small;
+  }
+
+  a.Element-2-Type-Logobox-Nav-Item:hover {
+    font-size: small;
+  }
+
+  a.Element-2-Type-Logobox-Nav-Item:visited {
+    font-size: small;
+  }
+
+  a.Element-2-Type-Logobox-Nav-Item:link {
+    font-size: small;
+  }
+}
+
 p.Element-2-Type-Header-Text {
   float: left;
   margin-top: 2.5%;
@@ -215,6 +233,15 @@ img.Element-2-Type-Header-Image {
     float: none;
     width: 95%;
     margin-left: 2.5%;
+    font-size: small;
+  }
+
+  p.Element-2-Type-Simple-Text {
+    font-size: small;
+  }
+
+  p.Element-2-Type-Simple-Headline-Text {
+    font-size: small;
   }
 
   .Element-2-Type-Skill {
@@ -253,21 +280,18 @@ img.Element-2-Type-Header-Image {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-    font-size: small;
   }
 
   p.Element-2-Type-Simple-Text {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-    font-size: small;
   }
 
   p.Element-2-Type-Simple-Headline-Text {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-    font-size: small;
   }
 
   .Element-2-Type-Skill {
@@ -294,10 +318,15 @@ img.Element-2-Type-Header-Image {
   color: white;
 }
 
+@media only screen and (max-width: 1400px) {
+  .Element-2-Type-Timeline-Item-Date {
+    font-size: small;
+  }
+}
+
 @media only screen and (max-width: 840px) {
   .Element-2-Type-Timeline-Item-Date {
     margin-left: 20%;
-    font-size: small;
   }
 
   .Element-2-Type-Timeline-Item-Data {
@@ -332,7 +361,7 @@ p.Subelem-3-Type-Timeline-Item-Data {
   margin-right: 4.5%;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 1400px) {
   p.Subelem-3-Type-Timeline-Item-Data {
     font-size: small;
   }
@@ -357,16 +386,16 @@ p.Subelem-4-Type-Icon-Text {
   vertical-align: middle;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 1400px) {
   p.Subelem-4-Type-Icon-Text {
     font-size: small;
   }
 }
 
 @media only screen and (max-width: 840px) {
-.Subelem-4-Type-Timeline-Item-Data-List {
-  padding: 20px;
-}
+  .Subelem-4-Type-Timeline-Item-Data-List {
+    padding: 20px;
+  }
 }
 
 /* Overwrite some timeline stuff */
@@ -391,5 +420,19 @@ p.Subelem-4-Type-Icon-Text {
     margin-left: 5% !important;
     width: 90% !important;
     max-width: 100% !important;
+  }
+
+  .timeline:before {
+    left: calc(1% + 6px) !important;
+  }
+
+  .entry .body {
+    margin: 20px 0 3em !important;
+    float: right !important;
+    width: 99% !important;
+  }
+
+  .entry .title {
+    width: 90% !important;
   }
 }
