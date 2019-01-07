@@ -52,7 +52,7 @@ class App extends Component {
             description={this.shortTexts}
           />
           <SimpleBlock
-            description="That's what I offer to development teams."
+            description="What I offer to development teams."
             headline="true"
             anchor="offers"
           />
