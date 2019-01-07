@@ -9,8 +9,8 @@ export class Logobox extends Component {
     return (
       <div class="Outer-0-Logobox">
         <img class="Block-1-Type-Logobox-Image" src={logo} alt="logo" />
-        <NavItem target="#home" text="Home"/>
-        <NavItem target="#offers" text="Offers"/>
+        <NavItem target="#home" text="Me"/>
+        <NavItem target="#offers" text="Skills"/>
         <NavItem target="#projects" text="Projects"/>
         <NavItem target="#references" text="References"/>
         <NavItem target="" text="Impressum"/>
