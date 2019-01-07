@@ -122,6 +122,12 @@ img.Block-1-Type-Logobox-Image {
   background-color: white;
 }
 
+.Block-1-Type-Quotes {
+  border-left: 6px solid darkgray;
+  box-sizing: border-box;
+  background-color: white;
+}
+
 .Block-1-Type-Simple-Headline {
   border-left: 6px solid darkgray;
   box-sizing: border-box;
@@ -332,6 +338,43 @@ img.Element-2-Type-Header-Image {
   .Element-2-Type-Timeline-Item-Data {
     margin-top: 5%;
   }
+}
+
+img.Element-2-Type-Quote-Image {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  float: left;
+}
+
+.Element-2-Type-Quote-Icon-Left {
+  margin-left: 5%;
+  margin-top: 10%;
+  float: left;
+}
+
+p.Element-2-Type-Quote-Text {
+  margin-left: 2.5%;
+  margin-top: 15%;
+  width: 50%;
+  float: left;
+  margin-right: 10%;
+}
+
+.Element-2-Type-Quote-Icon-Right {
+  position: relative;
+  top: 5%;
+  margin-left: 60%;
+}
+
+h3.Element-2-Type-Quote-Name {
+  margin-left: 75%;
 }
 
 /* Subelem-3 */

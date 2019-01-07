@@ -64,16 +64,11 @@ class App extends Component {
           />
           <Projects />
           <SimpleBlock
-            description="More text"
+            description="People are saying this about me."
             headline="true"
             anchor="references"
           />
-          <SimpleBlock />
-          <SimpleBlock
-            description="More text"
-            headline="true"
-          />
-          <SimpleBlock />
+          <Quotes />
         </div>
       </div>
     );
