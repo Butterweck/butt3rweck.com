@@ -20,7 +20,7 @@ export class Projects extends Component {
         >
           <div class="Element-2-Type-Timeline-Item-Data">
             <h3 class="Subelem-3-Type-Timeline-Item-Data">Scrum Master and Atlassian Admin, a german public authority</h3>
-            <h4 class="Subelem-3-Type-Timeline-Item-Data">as Freelancer</h4>
+            <h4 class="Subelem-3-Type-Timeline-Item-Data">Freelancer</h4>
             <p class="Subelem-3-Type-Timeline-Item-Data">Coaching a team of XX people</p>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Administering an Atlassian environment for > 3000 users
@@ -37,7 +37,7 @@ export class Projects extends Component {
         >
           <div class="Element-2-Type-Timeline-Item-Data">
             <h3 class="Subelem-3-Type-Timeline-Item-Data">Scrum Master, Deutsche Telekom AG</h3>
-            <h4 class="Subelem-3-Type-Timeline-Item-Data">as Freelancer</h4>
+            <h4 class="Subelem-3-Type-Timeline-Item-Data">Freelancer</h4>
             <p class="Subelem-3-Type-Timeline-Item-Data">Coaching a team of > 30 people; providing a scaling mechanism for its 4 sub-teams</p>
             <p class="Subelem-3-Type-Timeline-Item-Data">
               Responsible for the team’s jira and confluence setup as a project
